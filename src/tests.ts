@@ -1,18 +1,14 @@
 import { expect } from 'chai';
-import { asdf } from './index';
+import { run } from './index';
 
 describe('First Module', () => {
 
-    it('', () => {});
-    
-    it('this should work', () => {
-        expect(1).to.equal(2);
-    });
-    
-    it('this should be ignored', () => {
+    it('ignore me', () => { });
+
+    it('this should be ignored', async () => {
         // console.log(2);
-        asdf();
-        
+        await run();
+
         // console.log(2);
     });
 });
