@@ -1,1 +1,3 @@
-export const asdf = () => 3;
+export const asdf = () => {
+    
+};
