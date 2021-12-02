@@ -1,4 +1,15 @@
 import { Client, Query } from 'ts-postgres';
+import React from 'react';
+
+let asdf0 = <div>
+    <div>asdf0</div>
+</div>;
+
+let asdf1 = <div>
+    <div>asdf0</div>
+    <div>asdf1</div>
+</div>;
+
 
 export const run = async () => {
     let client = new Client({
