@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "start": "webpack-dev-server -w",
+    "test": "webpack-dev-server -w",
     "build": "webpack --mode development"
   },
   "repository": {

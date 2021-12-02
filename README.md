@@ -2,6 +2,12 @@
 
 Stream data from materilize db inside a javascript application.
 
+## Running
+
+* Start the [Kakoune editor](https://github.com/mawww/kakoune#installing) - `kak src/tests.ts` 
+* Install npm packages - `npm install`
+* Start test runner `npm test`
+
 ## Steps
 
 * [Create a Kafka JSON Sink in materialize DB](https://materialize.com/docs/sql/create-sink/#json-sinks)
